@@ -59,6 +59,8 @@ func LoadEncryptionKeys() {
 	Password_enc_key = os.Getenv("PASSWORD_ENC_KEY")
 	Aes_iv = os.Getenv("AES_IV")
 
+	// I have not added the actual .env file
+	// to learning purpose, I have added the following dummy keys.
 	if SecreteKey == "" {
 		SecreteKey = "dfkhlajfhlkasdfhjsenfhejrnskfnkjsgkjsdnfksdnfkjsdhfjdhfkjdsncs"
 	}
